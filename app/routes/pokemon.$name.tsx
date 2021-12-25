@@ -10,7 +10,7 @@ const Pokemon = () => {
     <div>
       <h1 className='title'>{pokemon.name}</h1>
       <div className='flex-col'>
-        {pokemon.stats.map((stat: any) => (
+        {pokemon?.stats?.map((stat: any) => (
           <div className='card' key={stat.stat.name}>
             <p>
               {stat.stat.name} - {stat.base_stat}

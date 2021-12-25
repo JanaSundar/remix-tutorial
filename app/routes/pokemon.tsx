@@ -1,5 +1,4 @@
-import { LoaderFunction } from '@remix-run/server-runtime';
-import { Link, Outlet } from 'remix';
+import { Link, LoaderFunction, Outlet } from 'remix';
 
 export const loader: LoaderFunction = () => {
   return fetch('https://pokeapi.co/api/v2/pokemon');
