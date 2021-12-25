@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+.home {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  margin: 1rem 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  background: black;
+  color: white;
+  align-self: center;
+}
+
+.pokemon {
+  flex: 1;
+}
+
+.flex {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 2rem 0;
+  justify-content: center;
+}
+
+.card {
+  width: 250px;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.card > img {
+  width: 60%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
